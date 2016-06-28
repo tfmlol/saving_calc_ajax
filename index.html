@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Savings Calculator - jQuery</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2>Savings Calculator App</h2>
+				</div>
+				<div class="col-sm-6">
+				<form>
+					<div class="form-group">
+						<label for="savingsGoalReason">What is your savings goal?</label>
+						<input type="text" class="form-control" id="savingsGoalReason"/>
+					</div>
+					<div class="form-group">
+						<label for="salaryInput">Goal Date</label>
+						<select class="form-control" id="goalMonth">
+						  	<option value="1">Jan</option>
+							<option value="2">Feb</option>
+							<option value="3">Mar</option>
+							<option value="4">Apr</option>
+							<option value="5">May</option>
+							<option value="6">Jun</option>
+							<option value="7">Jul</option>
+							<option value="8">Aug</option>
+							<option value="9">Sep</option>
+							<option value="10">Oct</option>
+							<option value="11">Nov</option>
+							<option value="12">Dec</option>
+						</select>
+						<input type="text" class="form-control" id="goalYear">
+					</div>
+					<div class="form-group">
+						<label for="savingsGoalAmount">Savings Goal Amount:</label>
+						$<input type="text" class="form-control" id="savingsGoalAmount"/>
+					</div>
+					<div class="form-group">
+						<label for="monthlyContributions">Monthly Contributions</label>
+						$<input type="text" class="form-control" id="monthlyContributions"/>
+					</div>
+					<button type="submit" class="btn btn-success" id="updateCalc">Calculate!</button>
+				</form>
+				</div>
+				<div class="col-sm-6">
+					<h2>Your Results:</h2>
+					<p id="results">Results here.....</p>
+				</div>
+				<div class="col-sm-6 up-sell">
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="
+https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
